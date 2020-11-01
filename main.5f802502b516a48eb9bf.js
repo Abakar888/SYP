@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.querySelector(".block"),t=document.querySelector(".button"),u=document.querySelector("input");document.querySelector("out-name"),t.onclick=function(){e.innerHTML+=u.value+"<br>"}})();
