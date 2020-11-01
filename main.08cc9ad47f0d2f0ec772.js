@@ -1,0 +1,1 @@
+(()=>{"use strict";for(var e=document.querySelector(".block"),r=["Абакар","Ваня","Диана","Саша","Лина","Катя","Денис","Леха","Артем","Инна"],n=0;n<r.length;n++)e.innerHTML+=r[n],e.innerHTML+="<br>"})();
