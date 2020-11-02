@@ -10,6 +10,8 @@ let outName = document.querySelector('.out-name');
 let btn = document.getElementById('btn');
 const names = [];
 
+
+
 button.addEventListener("click", () => {
     block.innerHTML += input.value + '<br>';
     names.push(input.value);

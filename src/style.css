@@ -3,34 +3,106 @@ h1{
     padding: 0;
 }
 .wrapper{
-    margin: 0 auto;
+    margin: 50px auto 0;
     display: flex;
     flex-flow: column;
-    width: 500px;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    padding-bottom: 0;
+    
+    -webkit-box-shadow: 0px 0px 22px 18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 22px 18px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 22px 18px rgba(0,0,0,0.75);
+
+    background-color: #e7a61a;
+
+    font-size: 21px;
+    border-radius: 15px;
+}
+
+.b1{
+    width: 320px;
+    height: 60px;
+    
+    -webkit-box-shadow: 0px 0px 22px 18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 22px 18px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 22px 10px rgba(0,0,0,0.75);
+
+    margin-top: 25px;
+    padding-top: 10px;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+}
+.b2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(152, 25, 216);
+    position: relative;
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes circle{
+
+0%{
+    left: 10%;
+}
+
+100%{
+    left: 80%;
+    }
+}
+
+
+.img{
+    z-index: -1;
+    position: absolute;
 }
 .block{
     width: 226px;
     border: 2px solid black;
     padding: 10px;
     margin-top: 25px;
-    font-size: 24px;
+}
+
+.out-name{
+    display: flex;
 }
 .button{
     width: 70px;
     height: 22px;
+    font-size: 15px;
 }
-.out-name{
-    display: flex;
+.button:active{
+    width: 80px;
+    height: 22px;
+    font-size: 15px;
+    border: blue;
 }
 #btn{
     width: 250px;
     height: 50px;
     margin-top: 25px;
+    font-size: 25px;
+    border-radius: 10px;
+    
+
+}
+#btn:active{
+    background-color: lightblue;
+    border: blue;
+    width: 270px;
+    
+    
 }
 .block2{
     width: 250px;
     border: 1px solid black;
-   
+ 
     margin-top: 25px;
     font-size: 24px;
     display: flex;
@@ -41,9 +113,11 @@ h1{
     width: 100px;
     border: 1px solid black;
     padding: 10px;
+   
 }
 .block4{
     width: 100px;
     border: 1px solid black;
     padding: 10px;
+    
 }
